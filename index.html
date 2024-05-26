@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Diabetes Detection</h1>
+        <form action="/predict" method="post">
+            <label for="pregnancies">Number of Pregnancies:</label>
+            <input type="number" id="pregnancies" name="pregnancies" required><br><br>
+
+            <label for="glucose">Plasma Glucose Concentration (mg/dL):</label>
+            <input type="number" id="glucose" name="glucose" required><br><br>
+            
+            <label for="blood_pressure">Diastolic Blood Pressure (mm Hg):</label>
+            <input type="number" id="blood_pressure" name="blood_pressure" required><br><br>
+            
+            <label for="skin_thickness">Triceps Skin Fold Thickness (mm):</label>
+            <input type="number" id="skin_thickness" name="skin_thickness" required><br><br>
+            
+            <label for="insulin">Insulin Level (mu U/ml):</label>
+            <input type="number" id="insulin" name="insulin" required><br><br>
+            
+            <label for="bmi">BMI (Body Mass Index):</label>
+            <input type="number" id="bmi" name="bmi" step="0.01" required><br><br>
+            
+            <label for="diabetes_pedigree">Diabetes Pedigree Function:</label>
+            <input type="number" id="diabetes_pedigree" name="diabetes_pedigree" step="0.001" required><br><br>
+            
+            <label for="age">Age (years):</label>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <button type="submit">Predict</button>
+        </form>
+       
+    </div>
+</body>
+</html>
