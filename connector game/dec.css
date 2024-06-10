@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    font-weight: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right,grey,black);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+#board{
+    border: 10px solid navy;
+    width: 490px;
+    height: 600px;
+    position: relative;
+    left: 460px;
+    background: navy;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    
+}
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    
+}
