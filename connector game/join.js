@@ -124,7 +124,7 @@ function setWinner(r, c) {
     if (board[r][c] == playerRed) {
         winner.innerText = "Red Wins";             
     } else {
-        winner.innerText = "Yellow Wins";
+        winner.innerText = "Blue Wins";
     }
     gameOver = true;
 }

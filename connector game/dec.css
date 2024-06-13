@@ -28,13 +28,13 @@ body {
     margin: 5px;
     background-color: aliceblue;
     border-radius: 50%;
-    border: 5px solid gray;
+    border: 5px solid black;
 }
 
 .red-piece {
-    background-color: red;
+    background-color: rgb(192, 12, 12);
 }
 
 .yellow-piece {
-    background-color: yellow;
+    background-color: rgb(5, 47, 119);
 }
